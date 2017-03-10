@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.example.lang.MainActivity" >
+
+        <EditText
+            android:id="@+id/etPasskey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUsername"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Passkey"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bLogin"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/etPasskey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="LOGIN"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etPasskey"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Fullname"
+            android:inputType="text"
+            android:textSize="20dp" >
+
+            <requestFocus />
+        </EditText>
+    
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pvg.asci.noteit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameDrawer"
+            android:label="@string/title_activity_game_drawer" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.GameDrawer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.noteit.Registration" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.noteit.REGISTRATIONACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Confirmation"
+            android:label="@string/title_activity_confirmation" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.noteit.Confirmation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Entries"
+            android:label="@string/title_activity_entries" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.noteit.Entries" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+ 		/>
+        </activity>
+        <activity
+            android:name=".Contact_us"
+            android:label="@string/title_activity_contact_us" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.noteit.Contact_us" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            />
+        </activity>
+        <activity
+            android:name=".Game_details"
+            android:label="@string/title_activity_game_details" >
+            <intent-filter>
+                <action android:name="com.pvg.asci.noteit.Game_details" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lang.MainActivity" >
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="Delete Entry"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_sendDB"
+        android:orderInCategory="100"
+        android:title="Send DB"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_contactus"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+
+</menu>

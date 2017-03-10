@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NoteIt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_drawer">GameDrawer</string>
+
+    <string-array name="games">
+        <item>Entries</item>
+        <item>Delete Entry</item>
+        <item>Send DB</item>
+        <item>Game Details</item>
+        <item>Contact Us</item>
+    </string-array>
+
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="title_activity_entries">Entries</string>
+    <string name="title_activity_contact_us">Contact_us</string>
+    <string name="title_activity_game_details">Game_details</string>
+
+</resources>
